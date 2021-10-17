@@ -27,7 +27,7 @@ selected_cols['uppercase_name_nomalized'] = selected_cols['name_normalized'].str
 
 del selected_cols['name_normalized']
 
-brazil_ciities_json = json.loads(selected_cols.to_json(orient='records'))
+brazil_cities_json = json.loads(selected_cols.to_json(orient='records'))
 
 with open('../data/brazil_cities.json', 'w', encoding='utf-8') as f:
-    json.dump(brazil_ciities_json, f, ensure_ascii=False).encode('utf8')
+    json.dump(brazil_cities_json, f, ensure_ascii=False).encode('utf8')
