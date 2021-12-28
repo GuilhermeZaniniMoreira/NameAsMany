@@ -43,6 +43,8 @@ selected_cols.rename(
   }, inplace=True
 )
 
+selected_cols['id'] = selected_cols.index + 1
+
 selected_cols['population'] = selected_cols['population'].astype(float)
 
 population_min_max_normalization = (selected_cols['population']-selected_cols['population'].min())/(selected_cols['population'].max()-selected_cols['population'].min())
