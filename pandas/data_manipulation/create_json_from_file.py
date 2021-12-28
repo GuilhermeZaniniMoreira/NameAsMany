@@ -1,6 +1,5 @@
 import pandas as pd
 import json as json
-import locale as lc
 
 # loading cities and state csv files
 df_cities_lat_lng = pd.read_csv('../files/brazil/cities_lat_lng.csv', delimiter=',')
