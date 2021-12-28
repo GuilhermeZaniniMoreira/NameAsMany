@@ -8,6 +8,7 @@ df_cities_population = pd.read_csv('../files/brazil/cities_population.csv', deli
 df_states = pd.read_csv('../files/brazil/states.csv', delimiter=',')
 
 # combining codigo_uf and codigo_municipio in order to create codigo_ibge column
+df_cities_population['codigo_municipio'] = df_cities_population['codigo_municipio'].apply(lambda x: x.zfill(5))
 df_cities_population['codigo_ibge'] = df_cities_population['codigo_uf'].astype(str) + df_cities_population['codigo_municipio'].astype(str)
 
 # merge df_cities_lat_lng and df_cities_population on codigo_ibge

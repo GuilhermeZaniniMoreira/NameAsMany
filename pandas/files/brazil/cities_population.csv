@@ -82,12 +82,12 @@ AM,13,201,Atalaia do Norte,20868
 AM,13,300,Autazes,41005
 AM,13,409,Barcelos,27772
 AM,13,508,Barreirinha,32919
-AM,13,607,Benjamin Constant,44.873(2)
+AM,13,607,Benjamin Constant,44873
 AM,13,631,Beruri,20503
 AM,13,680,Boa Vista do Ramos,20040
 AM,13,706,Boca do Acre,34958
 AM,13,805,Borba,42328
-AM,13,839,Caapiranga,13.482(3)
+AM,13,839,Caapiranga,13482
 AM,13,904,Canutama,15981
 AM,13,1001,Carauari,28719
 AM,13,1100,Careiro,38820
@@ -97,7 +97,7 @@ AM,13,1308,Codajás,29691
 AM,13,1407,Eirunepé,36121
 AM,13,1506,Envira,20748
 AM,13,1605,Fonte Boa,16409
-AM,13,1654,Guajará,17.193(4)
+AM,13,1654,Guajará,17193
 AM,13,1704,Humaitá,57195
 AM,13,1803,Ipixuna,31172
 AM,13,1852,Iranduba,49718
@@ -107,9 +107,9 @@ AM,13,2009,Itapiranga,9312
 AM,13,2108,Japurá,1755
 AM,13,2207,Juruá,15495
 AM,13,2306,Jutaí,13462
-AM,13,2405,Lábrea,47.685(5)
+AM,13,2405,Lábrea,47685
 AM,13,2504,Manacapuru,99613
-AM,13,2553,Manaquiri,33.981(6)
+AM,13,2553,Manaquiri,33981
 AM,13,2603,Manaus,2255903
 AM,13,2702,Manicoré,57405
 AM,13,2801,Maraã,18298
@@ -118,23 +118,23 @@ AM,13,3007,Nhamundá,21710
 AM,13,3106,Nova Olinda do Norte,38665
 AM,13,3205,Novo Airão,20395
 AM,13,3304,Novo Aripuanã,26443
-AM,13,3403,Parintins,116.439(7)
+AM,13,3403,Parintins,116439
 AM,13,3502,Pauini,19616
 AM,13,3536,Presidente Figueiredo,38095
 AM,13,3569,Rio Preto da Eva,34856
-AM,13,3601,Santa Isabel do Rio Negro,26.566(8)
+AM,13,3601,Santa Isabel do Rio Negro,26566
 AM,13,3700,Santo Antônio do Içá,20889
 AM,13,3809,São Gabriel da Cachoeira,47031
 AM,13,3908,São Paulo de Olivença,40837
 AM,13,3957,São Sebastião do Uatumã,14678
 AM,13,4005,Silves,9289
-AM,13,4062,Tabatinga,68.502(9)
+AM,13,4062,Tabatinga,68502
 AM,13,4104,Tapauá,16876
 AM,13,4203,Tefé,59250
 AM,13,4237,Tonantins,19038
 AM,13,4260,Uarini,13839
-AM,13,4302,Urucará,16.007(10)
-AM,13,4401,Urucurituba,24.098(11)
+AM,13,4302,Urucará,16007
+AM,13,4401,Urucurituba,24098
 RR,14,27,Amajari,13561
 RR,14,50,Alto Alegre,15249
 RR,14,100,Boa Vista,436591
@@ -209,7 +209,7 @@ PA,15,3457,Ipixuna do Pará,67170
 PA,15,3507,Irituia,32639
 PA,15,3606,Itaituba,101541
 PA,15,3705,Itupiranga,53439
-PA,15,3754,Jacareacanga,6.952(12)
+PA,15,3754,Jacareacanga,6952
 PA,15,3804,Jacundá,60517
 PA,15,3903,Juruti,59961
 PA,15,4000,Limoeiro do Ajuru,29623
@@ -578,7 +578,7 @@ MA,21,7308,Nova Iorque,4682
 MA,21,7357,Nova Olinda do Maranhão,21228
 MA,21,7407,Olho d'Água das Cunhãs,19616
 MA,21,7456,Olinda Nova do Maranhão,14968
-MA,21,7506,Paço do Lumiar,125.265(13)
+MA,21,7506,Paço do Lumiar,125265
 MA,21,7605,Palmeirândia,19840
 MA,21,7704,Paraibano,21571
 MA,21,7803,Parnarama,35108
@@ -1525,7 +1525,7 @@ PE,26,5202,Escada,69701
 PE,26,5301,Exu,31709
 PE,26,5400,Feira Nova,22360
 PE,26,5459,Fernando de Noronha,3140
-PE,26,5509,Ferreiros,12.216(14)
+PE,26,5509,Ferreiros,12216
 PE,26,5608,Flores,22612
 PE,26,5707,Floresta,33488
 PE,26,5806,Frei Miguelinho,15633
@@ -1936,7 +1936,7 @@ BA,29,8804,Contendas do Sincorá,4025
 BA,29,8903,Coração de Maria,22391
 BA,29,9000,Cordeiros,8667
 BA,29,9109,Coribe,14108
-BA,29,9208,Coronel João Sá,15.549(15)
+BA,29,9208,Coronel João Sá,15549
 BA,29,9307,Correntina,32243
 BA,29,9406,Cotegipe,13756
 BA,29,9505,Cravolândia,5352
