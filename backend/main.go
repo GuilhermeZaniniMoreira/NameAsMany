@@ -6,6 +6,7 @@ import (
 	"os"
 	"github.com/gin-gonic/contrib/static"
 	"github.com/gin-gonic/gin"
+	cors "github.com/rs/cors/wrapper/gin"
 	_ "github.com/lib/pq"
 )
 
@@ -58,11 +59,13 @@ func verifyCity(db *sql.DB) gin.HandlerFunc {
 
 func main() {
 
-	r := gin.Default()
+	router := gin.Default()
 
-	r.Use(static.Serve("/", static.LocalFile("./web", true)))
+	// middlewares
+	router.Use(cors.Default())
+	router.Use(static.Serve("/", static.LocalFile("./web", true)))
 
-	api := r.Group("/api")
+	api := router.Group("/api")
 
 	dbUrl := os.Getenv("DATABASE_URL")
 
@@ -76,5 +79,5 @@ func main() {
 
 	api.GET("/cities", verifyCity(db))
 
-	r.Run()
+	router.Run()
 }
