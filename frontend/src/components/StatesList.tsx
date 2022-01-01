@@ -25,7 +25,7 @@ function StatesList(props: { cities: ICity[] }) {
       <List
         style={{ marginLeft: '20%', marginRight: '20%' }}
         grid={{ gutter: 16, column: 4 }}
-        dataSource={Object.values(states)}
+        dataSource={Object.values(states).sort((stateA, stateB) => stateA.length - stateB.length)}
         renderItem={item => (
           <List.Item>
             <Card
