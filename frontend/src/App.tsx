@@ -15,6 +15,8 @@ function App() {
 
   const [cities, setCities] = useState<ICity[]>([]);
 
+  const [cityName, setCityName] = useState('');
+
   const onSearch = async (value: string) => {
     try {
       const name = normalizeCityName(value);
@@ -25,6 +27,8 @@ function App() {
     } catch (error) {
       console.error(error);
     };
+
+    setCityName('');
   };
 
   const defaultLatLng: LatLngTuple = [-15.793889, -53.882778];
@@ -46,6 +50,8 @@ function App() {
           enterButton="Buscar"
           size="large"
           allowClear
+          onChange={(e) => setCityName(e.target.value)}
+          value={cityName}
           onSearch={onSearch}
         />
         <Title
