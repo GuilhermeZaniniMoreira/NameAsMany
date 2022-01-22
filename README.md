@@ -1,4 +1,4 @@
-# Quiz municípios brasileiros
+# Quizz municípios brasileiros
 
 
 https://desolate-harbor-65780.herokuapp.com/
