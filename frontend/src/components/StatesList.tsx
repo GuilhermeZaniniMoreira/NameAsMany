@@ -24,7 +24,13 @@ function StatesList(props: { cities: ICity[] }) {
     <React.Fragment>
       <List
         style={{ marginLeft: '20%', marginRight: '20%' }}
-        grid={{ gutter: 16, column: 4 }}
+        grid={{
+          xs: 1,
+          md: 1,
+          lg: 2,
+          xl: 2,
+          xxl: 3,
+        }}
         dataSource={Object.values(states).sort((stateA, stateB) => stateA.length - stateB.length)}
         renderItem={item => (
           <List.Item>
